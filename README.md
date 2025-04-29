@@ -1,4 +1,34 @@
 # Codepath-IOS101Prework
 
-The pre-work is completed here added the screenshot
+The pre-work is completed, here I added the screenshot and code 
 https://imgur.com/a/ckmLliT.gif
+//
+//  ViewController.swift
+//  prework-codepath
+//
+//  Created by zuhra totakhail on 4/27/25.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+    @IBAction func ChangeBackgroundColor(_ sender: UIButton) {
+        // Generate random color
+        let red = CGFloat.random(in: 0...1)
+        let green = CGFloat.random(in: 0...1)
+        let blue = CGFloat.random(in: 0...1)
+        
+        // Create a UIColor from the random values
+        let randomColor = UIColor(red: red, green: green, blue: blue, alpha: 0.5)
+        
+        // Set the view's background color to the random color
+        view.backgroundColor = randomColor
+    }
+}
+
