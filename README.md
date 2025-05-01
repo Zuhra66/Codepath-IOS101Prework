@@ -1,34 +1,44 @@
-# Codepath-IOS101Prework
+# Prework - *Color change - codepath-prework*
 
-The pre-work is completed, here I added the screenshot and code 
-https://imgur.com/a/ckmLliT.gif
-//
-//  ViewController.swift
-//  prework-codepath
-//
-//  Created by zuhra totakhail on 4/27/25.
-//
+Submitted by: **Zuhra Totakhail**
 
-import UIKit
+**Name of your app** is an app that... [TODO] 
 
-class ViewController: UIViewController {
+Time spent: **4** hours spent in total
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+## Required Features
 
-    @IBAction func ChangeBackgroundColor(_ sender: UIButton) {
-        // Generate random color
-        let red = CGFloat.random(in: 0...1)
-        let green = CGFloat.random(in: 0...1)
-        let blue = CGFloat.random(in: 0...1)
-        
-        // Create a UIColor from the random values
-        let randomColor = UIColor(red: red, green: green, blue: blue, alpha: 0.5)
-        
-        // Set the view's background color to the random color
-        view.backgroundColor = randomColor
-    }
-}
+The following **required** functionality is completed:
 
+- [x ] Users are see a screen with three labels and a button
+- [ x] Tapping the button changes the screen color to a random color
+ 
+## Video Walkthrough
+https://imgur.com/a/ALSYEHx.gif
+
+
+Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
+
+[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+
+## App Brainstorming (Step 4)
+
+## Notes
+
+Describe any challenges encountered while building the app.
+
+## License
+
+    Copyright [2025] [Zuhra]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
