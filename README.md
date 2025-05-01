@@ -2,7 +2,7 @@
 
 Submitted by: **Zuhra Totakhail**
 
-**Name of your app** is an app that... [TODO] 
+**Color-Change** is an app with three labels and a button. When you click on the button, the screen color changes.
 
 Time spent: **4** hours spent in total
 
@@ -19,7 +19,7 @@ https://imgur.com/a/ALSYEHx.gif
 
 Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
 
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+Video : (https://www.youtube.com/watch?v=XwEjNkFp_uQ) .
 
 ## App Brainstorming (Step 4)
 
